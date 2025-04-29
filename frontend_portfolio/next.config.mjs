@@ -9,6 +9,8 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
+  basePath: '/portfolio_website_ued',
+  output: 'export',
 }
 
 export default nextConfig
