@@ -2,6 +2,7 @@ import type React from "react"
 import "./globals.css"
 import type { Metadata } from "next"
 import { ThemeProvider } from "@/components/theme-provider"
+import { Navbar } from "@/components/Navbar"
 
 export const metadata: Metadata = {
   title: "Urja Saha Website",
@@ -19,7 +20,10 @@ export default function RootLayout({
     <html lang="en" suppressHydrationWarning>
       <body>
         <ThemeProvider attribute="class" defaultTheme="light" enableSystem disableTransitionOnChange>
-          {children}
+          <Navbar />
+          <main className="pt-16">
+            {children}
+          </main>
         </ThemeProvider>
       </body>
     </html>

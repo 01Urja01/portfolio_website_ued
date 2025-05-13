@@ -71,8 +71,8 @@ export default function ContactPage() {
                 <p className="text-gray-600 dark:text-gray-300">
                   <span className="font-semibold">Email:</span>
                   <br />
-                  <a href="mailto:your.email@example.com" className="text-accent hover:underline">
-                    your.email@example.com
+                  <a href="mailto:urja.saha23@spit.ac.in" className="text-accent hover:underline">
+                    urja.saha23@spit.ac.in
                   </a>
                 </p>
                 <p className="text-gray-600 dark:text-gray-300">

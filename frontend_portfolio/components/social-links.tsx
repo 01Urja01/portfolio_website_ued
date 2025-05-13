@@ -5,7 +5,7 @@ export default function SocialLinks() {
   return (
     <div className="flex space-x-4">
       <Link
-        href="https://github.com"
+        href="https://github.com/01urja01"
         target="_blank"
         rel="noopener noreferrer"
         className="w-10 h-10 rounded-full bg-gray-100 flex items-center justify-center text-gray-600 hover:bg-accent hover:text-white transition-colors"
@@ -14,7 +14,7 @@ export default function SocialLinks() {
         <Github size={20} />
       </Link>
       <Link
-        href="https://linkedin.com"
+        href="https://linkedin.com/in/urja-saha-a4755523a"
         target="_blank"
         rel="noopener noreferrer"
         className="w-10 h-10 rounded-full bg-gray-100 flex items-center justify-center text-gray-600 hover:bg-accent hover:text-white transition-colors"
@@ -23,7 +23,7 @@ export default function SocialLinks() {
         <Linkedin size={20} />
       </Link>
       <Link
-        href="https://twitter.com"
+        href="https://twitter.com/urja_saha"
         target="_blank"
         rel="noopener noreferrer"
         className="w-10 h-10 rounded-full bg-gray-100 flex items-center justify-center text-gray-600 hover:bg-accent hover:text-white transition-colors"
@@ -32,7 +32,7 @@ export default function SocialLinks() {
         <Twitter size={20} />
       </Link>
       <Link
-        href="https://instagram.com"
+        href="https://instagram.com/urjasaha_"
         target="_blank"
         rel="noopener noreferrer"
         className="w-10 h-10 rounded-full bg-gray-100 flex items-center justify-center text-gray-600 hover:bg-accent hover:text-white transition-colors"
@@ -41,7 +41,7 @@ export default function SocialLinks() {
         <Instagram size={20} />
       </Link>
       <Link
-        href="mailto:hello@janedoe.com"
+        href="mailto:urja.saha23@spit.ac.in"
         className="w-10 h-10 rounded-full bg-gray-100 flex items-center justify-center text-gray-600 hover:bg-accent hover:text-white transition-colors"
         aria-label="Email"
       >
